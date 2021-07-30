@@ -1,0 +1,22 @@
+.contact {
+    margin-top: 3em;
+    width: fit-content;
+}
+
+header {
+    background-image: url("../assets/anime_sakura.jpg");
+}
+
+.bg-sakura {
+    background-color: #7b6189;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.nav-item .log {
+    background-color: #60465e;
+    border-radius: 10px;
+}
+

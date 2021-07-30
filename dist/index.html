@@ -10,19 +10,21 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/cstyles.css" rel="stylesheet" />
+
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-sakura">
             <div class="container">
                 <a class="navbar-brand" href="#!">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link log" href="#">Register!</a></li>
                     </ul>
                 </div>
             </div>
@@ -31,8 +33,10 @@
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
-                    <h1 class="fw-bolder">Welcome to Blog Home!</h1>
-                    <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p>
+                    <div class="header">
+                        <h1 class="fw-bolder">Welcome to Blog Home!</h1>
+                        <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -43,7 +47,7 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                        <a href="#!"><img class="card-img-top" src="./assets/nature-photography.jpg" alt="squirrel" /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2021</div>
                             <h2 class="card-title">Featured Post Title</h2>
@@ -56,7 +60,7 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="./assets/dew.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2021</div>
                                     <h2 class="card-title h4">Post Title</h2>
@@ -66,7 +70,7 @@
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="./assets/long-tree.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2021</div>
                                     <h2 class="card-title h4">Post Title</h2>
@@ -78,7 +82,7 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="./assets/tree.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2021</div>
                                     <h2 class="card-title h4">Post Title</h2>
@@ -88,7 +92,7 @@
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="./assets/butterfly.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2021</div>
                                     <h2 class="card-title h4">Post Title</h2>
@@ -155,7 +159,7 @@
             </div>
         </div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-green">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->
