@@ -2,7 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Blog Home - Start Bootstrap Template</title>
@@ -11,19 +14,48 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/cstyles.css" rel="stylesheet" />
+        <link href="css/contact.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-sakura">
             <div class="container">
                 <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Register!</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="contact.html"
+                                >Contact</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link log">
+                                Get Started</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -31,25 +63,125 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="contact">
-                    <div class="card text-center">
-                        <div class="card-header">
-                          Contact Us!
-                        </div>
+                    <div class="card">
+                        <!--Card content-->
                         <div class="card-body">
-                          <h5 class="card-title">cyz@gmail.com</h5>
-                          <p class="card-text">For any queries/complaints please feel free to contact us!</p>
-                          <a href="#" class="btn btn-primary">Send letter</a>
+                            <!--Section heading-->
+                            <h2
+                                class="
+                                    h1-responsive
+                                    font-weight-bold
+                                    text-center
+                                    my-4
+                                "
+                            >
+                                Contact us
+                            </h2>
+                            <!--Section description-->
+                            <p class="text-center w-responsive mx-auto mb-5">
+                                Do you have any questions? Please do not
+                                hesitate to contact us directly. Our team will
+                                come back to you within a matter of hours to
+                                help you.
+                            </p>
+
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-9 mb-md-0 mb-5">
+                                    <form
+                                        id="contact-form"
+                                        name="contact-form"
+                                        action="mail.php"
+                                        method="POST"
+                                    >
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-10">
+                                                    <input
+                                                        type="text"
+                                                        id="name"
+                                                        placeholder="Your name"
+                                                        name="name"
+                                                        class="form-control"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+                                        </div>
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Your email"
+                                                        id="email"
+                                                        name="email"
+                                                        class="form-control"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input
+                                                        type="text"
+                                                        id="subject"
+                                                        placeholder="Subject"
+                                                        name="subject"
+                                                        class="form-control"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+                                                <div class="md-form">
+                                                    <textarea
+                                                        type="text"
+                                                        id="message"
+                                                        placeholder="Your message"
+                                                        name="message"
+                                                        rows="2"
+                                                        class="
+                                                            form-control
+                                                            md-textarea
+                                                        "
+                                                    ></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+                                    </form>
+
+                                    <div class="text-center text-md-left">
+                                        <a
+                                            class="btn btn-primary"
+                                            onclick="document.getElementById('contact-form').submit();"
+                                            >Send</a
+                                        >
+                                    </div>
+                                    <div class="status"></div>
+                                </div>
+                                <!--Grid column-->
+                            </div>
                         </div>
-                        <div class="card-footer text-muted">
-                          Thank you for contacting us!
-                        </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <footer class="py-5 bg-green">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
-        </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
