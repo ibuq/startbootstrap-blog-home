@@ -1,4 +1,5 @@
 body {
-    background: url("../assets/green1.jpg");
+    background: url("../assets/sakura-bg.jpg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
